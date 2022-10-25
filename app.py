@@ -1,5 +1,7 @@
+import tkinter
 from lib2to3.pgen2.pgen import PgenGrammar
 from tkinter import PAGES
+import matplotlib
 import streamlit as st
 import docx2txt
 import pdfplumber
@@ -7,6 +9,7 @@ import traceback
 import matplotlib.pyplot as plt
 import numpy as np
 from predict import *
+matplotlib.use('Agg')
 
 
 def r_pdf(file):
