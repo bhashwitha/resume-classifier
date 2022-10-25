@@ -9,7 +9,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore') 
 nltk.data.path.append('./nltk_data/')
-from keras.models import load_model
+
 
 def c_text(d):
    d = re.sub('http\S+\s*',' ',d) # remove urls

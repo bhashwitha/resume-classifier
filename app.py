@@ -7,7 +7,7 @@ import traceback
 import matplotlib.pyplot as plt
 import numpy as np
 from predict import *
-import tensorflow
+
 
 def r_pdf(file):
     try:
