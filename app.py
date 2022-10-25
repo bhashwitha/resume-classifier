@@ -1,4 +1,4 @@
-import tkinter
+
 from lib2to3.pgen2.pgen import PgenGrammar
 from tkinter import PAGES
 import matplotlib
